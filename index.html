@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDolist</title>
+    <script src="./javascript/jquery-3.6.0.js"></script>
+    <script src="./javascript/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1 class="w">ToDolist</h1>
+    </header>
+    <div class="content w">
+        <!-- 内容上半部分 -->
+        <div class="content-top">
+            <div class="input-box">
+                <input type="text" class="text-in">
+                <button id="text_add">添加</button>
+                <!-- <button id="text_remove">测试按钮</button> -->
+            </div>
+            <div class="nav">
+                <div class="logo">
+                    <h3>在线ToDolist</h3>
+                    <p>麻溜的记笔记</p>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="JavaScript:void(0);" id="btn_1">进行中</a></li>
+                        <li>|</li>
+                        <li><a href="JavaScript:void(0);" id="btn_2">已完成</a></li>
+                        <li>|</li>
+                        <li><a href="JavaScript:void(0);" id="btn_3">全部</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 内容下半部分 -->
+        <div class="content-bottom" style="overflow-y: auto;" >
+            <ul id="text_list">
+                <!-- <li>
+                    <input type='checkbox' name='text-list-check' style='display: none;'>
+                    <p>默认</p>
+                    <a href="JavaScript:void(0)" id="remove">删除</a>
+                    <a href="JavaScript:void(0)" id="edit">修改</a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
